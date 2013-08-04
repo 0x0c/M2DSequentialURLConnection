@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "M2DSequentialURLConnection.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <M2DSequentialURLConnectionDelegate>
 
 @end
