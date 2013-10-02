@@ -18,6 +18,8 @@
 		E996AC7217AE27480003C5F5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E996AC7117AE27480003C5F5 /* Default-568h@2x.png */; };
 		E996AC7517AE27480003C5F5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E996AC7317AE27480003C5F5 /* MainStoryboard.storyboard */; };
 		E996AC7817AE27480003C5F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E996AC7717AE27480003C5F5 /* ViewController.m */; };
+		E996AC8517AE27670003C5F5 /* M2DSequentialURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = E996AC8117AE27670003C5F5 /* M2DSequentialURLConnection.m */; };
+		E996AC8617AE27670003C5F5 /* M2DURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E996AC8417AE27670003C5F5 /* M2DURLConnectionOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		E996AC7417AE27480003C5F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E996AC7617AE27480003C5F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E996AC7717AE27480003C5F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E996AC8017AE27670003C5F5 /* M2DSequentialURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2DSequentialURLConnection.h; sourceTree = "<group>"; };
+		E996AC8117AE27670003C5F5 /* M2DSequentialURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2DSequentialURLConnection.m; sourceTree = "<group>"; };
+		E996AC8317AE27670003C5F5 /* M2DURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2DURLConnectionOperation.h; sourceTree = "<group>"; };
+		E996AC8417AE27670003C5F5 /* M2DURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2DURLConnectionOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,7 @@
 				E996AC7317AE27480003C5F5 /* MainStoryboard.storyboard */,
 				E996AC7617AE27480003C5F5 /* ViewController.h */,
 				E996AC7717AE27480003C5F5 /* ViewController.m */,
+				E996AC7E17AE27670003C5F5 /* Library */,
 				E996AC6217AE27470003C5F5 /* Supporting Files */,
 			);
 			path = M2DSequentialURLConnection;
@@ -105,6 +112,33 @@
 				E996AC7117AE27480003C5F5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E996AC7E17AE27670003C5F5 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				E996AC7F17AE27670003C5F5 /* M2DSequentialURLConnection */,
+				E996AC8217AE27670003C5F5 /* M2DURLConnectionOperation */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		E996AC7F17AE27670003C5F5 /* M2DSequentialURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				E996AC8017AE27670003C5F5 /* M2DSequentialURLConnection.h */,
+				E996AC8117AE27670003C5F5 /* M2DSequentialURLConnection.m */,
+			);
+			path = M2DSequentialURLConnection;
+			sourceTree = "<group>";
+		};
+		E996AC8217AE27670003C5F5 /* M2DURLConnectionOperation */ = {
+			isa = PBXGroup;
+			children = (
+				E996AC8317AE27670003C5F5 /* M2DURLConnectionOperation.h */,
+				E996AC8417AE27670003C5F5 /* M2DURLConnectionOperation.m */,
+			);
+			path = M2DURLConnectionOperation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +210,8 @@
 				E996AC6817AE27470003C5F5 /* main.m in Sources */,
 				E996AC6C17AE27480003C5F5 /* AppDelegate.m in Sources */,
 				E996AC7817AE27480003C5F5 /* ViewController.m in Sources */,
+				E996AC8517AE27670003C5F5 /* M2DSequentialURLConnection.m in Sources */,
+				E996AC8617AE27670003C5F5 /* M2DURLConnectionOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

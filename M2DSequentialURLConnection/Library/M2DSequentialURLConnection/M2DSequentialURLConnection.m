@@ -53,8 +53,8 @@ M2DSequentialURLConnection *sharedQueue;
 		M2DURLConnectionOperation *operation = dict[M2DSequentialURLConnectionOperation];
 		currentConnectionIdentifier_ = [operation sendRequest];
 		
-		if ([self.delegate respondsToSelector:@selector(sequentiaoURLConnectionDidDequeued:)]) {
-			[self.delegate sequentiaoURLConnectionDidDequeued:dict];
+		if ([self.delegate respondsToSelector:@selector(sequentiaoURLConnectionDidDequeue:)]) {
+			[self.delegate sequentiaoURLConnectionDidDequeue:dict];
 		}
 	}
 }

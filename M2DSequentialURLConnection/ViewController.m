@@ -41,7 +41,7 @@
 
 #pragma mark M2DSequentialURLConnectionDelegate
 
-- (void)sequentiaoURLConnectionDidDequeued:(NSDictionary *)operationInfo
+- (void)sequentiaoURLConnectionDidDequeue:(NSDictionary *)operationInfo
 {
 	M2DURLConnectionOperation *operation = operationInfo[M2DSequentialURLConnectionOperation];
 	NSLog(@"%@(auto start:%d)", operation.connection.identifier, [operationInfo[M2DSequentialURLConnectionAutoStart] boolValue]);

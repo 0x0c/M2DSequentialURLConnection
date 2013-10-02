@@ -14,7 +14,7 @@
 
 @protocol M2DSequentialURLConnectionDelegate <NSObject>
 
-- (void)sequentiaoURLConnectionDidDequeued:(NSDictionary *)operationInfo;
+- (void)sequentiaoURLConnectionDidDequeue:(NSDictionary *)operationInfo;
 
 @end
 
